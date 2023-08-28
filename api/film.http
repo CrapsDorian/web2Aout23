@@ -1,0 +1,30 @@
+### Read all pizzas with File variable
+@baseUrl = http://localhost:3000
+GET {{baseUrl}}/films
+
+### Read all pizzas sorted by title (ascending)
+GET {{baseUrl}}/films/?minimumduration=100
+
+
+### Create a pizza
+POST {{baseUrl}}/films
+Content-Type: application/json
+
+{
+   "title": "Potter",
+  "duration": 90,
+  "budget": 111,
+  "link": "https://amazing-javascript.world"
+}
+
+### Delete pizza identified by 2
+DELETE {{baseUrl}}/films/2
+
+
+### Update the pizza identified by 6
+PATCH {{baseUrl}}/films/2
+Content-Type: application/json
+
+{
+    "title":"Magic Green 2"
+}
