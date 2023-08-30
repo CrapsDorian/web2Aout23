@@ -1,0 +1,20 @@
+@baseUrl = http://localhost:3000
+
+### Read all pizzas sorted by title (descending)
+
+GET {{baseUrl}}/recommendations/user1
+### Read all pizzas sorted by title (descending)
+
+
+GET {{baseUrl}}/purchases/2
+
+### Read all pizzas sorted by title (descending)
+
+POST {{baseUrl}}/purchases
+Content-Type: application/json
+
+{
+    "pseudo":"user2",
+    "qty":10,
+    "id" : 1
+}

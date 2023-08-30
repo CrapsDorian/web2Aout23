@@ -1,0 +1,19 @@
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.carre {
+    display: inline-block; 
+    min-width: 50px; 
+    min-height: 50px; 
+    border:1px solid black;
+   
+}
